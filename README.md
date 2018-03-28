@@ -2,9 +2,11 @@
 
 		Notes :-
 		
+CLICK ON PROGRAM RESOURCES.TXT FOR FULL DETAILS
+		
 Download 
-Program resources , open with notepad ++
-and
+
+
 
 
 
