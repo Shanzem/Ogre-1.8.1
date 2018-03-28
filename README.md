@@ -29,40 +29,7 @@ download pre built 1.8.1 from my google drive :-
 extract OgreSDK_MinGW_v1-8-1 content to C:\ogre. so now you have C:\ogre\OgreSDK_MinGW_v1-8-1 in a folder.
 
 download this package - top right as zip
-extract to C:\ogre. so you have a directory like this :-
-
-Directory of C:\ogre
-
-22/07/2012  11:28         8,530,240 cg.dll
-07/12/2014  18:48            14,556 libd3dcompiler_43.a
-07/12/2014  18:48           212,680 libd3dx9d.a
-07/12/2014  18:48           261,952 libd3dx9_43.a
-07/12/2014  18:48           257,550 libole32.a
-07/12/2014  18:48           313,172 liboleaut32.a
-29/05/2017  23:00         1,508,122 libstdc++-6.dll
-07/12/2014  18:48             3,354 libwbemuuid.a
-27/03/2018  14:26             9,118 main.cpp
-18/10/2012  18:00        10,169,856 OgreMain.dll
-18/10/2012  18:00           174,592 OgrePaging.dll
-24/03/2018  11:33             2,222 ogreproject.dev
-26/03/2018  19:57         1,531,077 ogreproject.exe
-26/03/2018  20:01               408 ogreproject.layout
-18/10/2012  18:00            78,336 OgreProperty.dll
-18/10/2012  18:00         1,007,104 OgreRTShaderSystem.dll
-18/10/2012  18:00    <DIR>          OgreSDK_MinGW_v1-8-1	- Thats the SDK folder
-18/10/2012  18:00           466,944 OgreTerrain.dll
-18/10/2012  18:00           114,176 OIS.dll
-18/10/2012  18:00           245,248 Plugin_BSPSceneManager.dll
-18/10/2012  18:00           307,200 Plugin_CgProgramManager.dll
-18/10/2012  18:00           135,168 Plugin_OctreeSceneManager.dll
-18/10/2012  18:00            77,312 Plugin_OctreeZone.dll
-18/10/2012  18:00           205,824 Plugin_ParticleFX.dll
-18/10/2012  18:00           330,752 Plugin_PCZSceneManager.dll
-18/10/2012  18:00           837,120 RenderSystem_Direct3D9.dll
-18/10/2012  18:00         1,416,192 RenderSystem_GL.dll
-
-
-
+extract to C:\ogre. 
 open project "ogreproject.dev"
 
 right click on ogreproject in projects tab on left hand side, click project options.
