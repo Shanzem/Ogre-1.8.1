@@ -15,8 +15,8 @@ I am missing Ogre OgreApplicationContext.h is this a 1.10 header? or is it a plu
 		
 Download bloodshed Dev++ 5.11 or greater.
 Install to its default path.
-Run ogre, choose your preferred views.
-close ogre. 
+Run dev, choose your preferred views.
+close dev. 
 		
 Create a new folder in your drive C:\ called "ogre" (case sensitive) LOWER CASE!
 So if you open C:\ you see an ogre folder.
