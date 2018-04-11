@@ -14,7 +14,7 @@ EXE WORKS!
 
 Added DLLs and changed the way they are looked for.
 
-Pictures added date 11/04/18.
+Pictures added date 11/04/18. SCROLL TO BOTTOM
 
 Learned a lot this weekend, 
 
