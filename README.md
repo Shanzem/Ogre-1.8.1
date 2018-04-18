@@ -45,8 +45,7 @@ Blender2ogre working :D
 been reading a lot this week. Trying to setup ois.
 Few bugs to iron out in ois code. 
 Need documentation on using meshmagick to centre meshes for stitching.
-Need a physics engine or library. DirectScene engine. Audio environmentally and physics.
-Might be a good choice.
+Need a physics engine or library. 
 
 This time next week playable demo.
 
