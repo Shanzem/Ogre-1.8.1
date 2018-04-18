@@ -38,6 +38,8 @@ Take care of the small box
 
 -Vasco Popa
 
+https://en.wikipedia.org/wiki/Vasko_Popa
+
 Pics added
 
 Blender2ogre working :D
