@@ -1,28 +1,17 @@
 		Notes :-
 
-Updated 07/04/2018
+Updated 18/04/2018
 
-Stand alone .exe failing to start!
+Blender2ogre finally working.
 
-Added extra DLLs to repository. follow play with me guide to load exe.
- 
-Pics + mesh and material script added to repository.
+Dropping .BSP going full Octree as i can get more detailed results
+and better ram/cpu/graphics usage.
 
-Going straight GL implementation.
+Uploaded all tools and programs to my google drive
 
-Now that my scene is not rendering a black hole,
+will place download links in README section.
 
-my cpu usage is 2.4% MUCH better then i expected.
-
-Ram at 20mbs, But i am loading scene managers that i may never use!
-
-Still looking for Pre built 1.10.# for mingw. :)
-
-If i move upto 1.10.#, I will move onto GLES2 or 3,
-would make a more polished and modern looking game.
-
-Still no dear imgui, i neglected to grab the raw bindings.
-
+Been throwing ideas down for a spreadsheet for map stitching.
 
 
 -------------------------------------------------------------
@@ -54,10 +43,7 @@ extract to C:\ogre. so you have a directory like this :-
 Directory of C:\ogre
 
 22/07/2012  11:28         8,530,240 cg.dll
-07/12/2014  18:48           257,550 libole32.a
-07/12/2014  18:48           313,172 liboleaut32.a
 29/05/2017  23:00         1,508,122 libstdc++-6.dll
-07/12/2014  18:48             3,354 libwbemuuid.a
 27/03/2018  14:26             9,118 main.cpp
 18/10/2012  18:00        10,169,856 OgreMain.dll
 18/10/2012  18:00           174,592 OgrePaging.dll
@@ -108,13 +94,14 @@ OgreSDK_MinGW_v1-8-1/lib/release/opt/libPlugin_PCZSceneManager.dll.a
 OgreSDK_MinGW_v1-8-1/lib/release/opt/libRenderSystem_Direct3D9.dll.a
 OgreSDK_MinGW_v1-8-1/lib/release/opt/libRenderSystem_GL.dll.a
 
-Goto line 105 from 
+Goto 
 
 Ogre::String lDirectoryToLoad = "C:/Users/Luke/Desktop/ogre/ogre.1.8.1";
 
 to
 
 Ogre::String lDirectoryToLoad = "C:/ogre";
+
 
 If you done this correctly hitting compile and run in Dev++ will show a screen called.
 
@@ -139,12 +126,18 @@ Windows / Linux	/ Raspberry PI
 
 *GLES2 OR 3 depends need to do some research.
 
+---------------------------------------------------------------------------
+
+
+----------------------------------------------------------------------
+
 
 	What i have in the box currently/What i am using :-
 		
 Ogre 1.8.1							Running in Dev++
 ogreproject.exe						Test window, produces .log contain all loads
 OPENGL								Tested and works	-	Enabled
+DirectX9							Tested and works	-	Disabled
 FreeImage 							version: 3.15.3
 ParticleFX							Need documentation
 BSPSceneManager
@@ -155,18 +148,18 @@ OctreeSceneManager					Need documentation
 GTK Radiant(Q3) map editor			Installed,running :)
 Q3map2 map-> bsp compiler			Installed,works
 Krita 4.0							All artwork
-Blender								All models
-Blender2ogre						ISSUES.
+Blender	2.75						All models
+Blender2ogre 6						WORKS
 Ogre meshy							Bone weights and useful information
-
+OgreCommandLineTools_1.7.2			OgreXMLconverter,MeshMagick,MeshUpgrader.
+Ogre Particle Lab					Nifty app :)
 
 
 		Still needed :-
 
+Physics engine!						Plugin`s and Software development kits oh my! 
 									
-Resource manager .pk3				Internal way for Q3Radiant to handle data compression. appears as an archive.
-									Should contain a map. Should be able to pack .mesh .tga(other image formats).bsp
-									Less HDD space.
+Resource manager .pk3/.zip			For compressing READ only data.
 									
 									
 Navmap plugin	 					Identify scenes changes / loads for player. A.I movement, patrols route to player without
