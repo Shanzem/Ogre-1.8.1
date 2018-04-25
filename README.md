@@ -21,10 +21,14 @@ Controls, to the right of 'Enter' - the arrow keys.
 Then you can turn the head left and right using the respected 
 keys on keyboard.
 
-Up arrow increase speed. Hold to accelerate 
+Up arrow increase speed. Hold to accelerate
+
 Down arrow decrease speed Hold to break
+
 Left arrow radians -. Hold to spin left
+
 Right arrow radians +. Hold to spin right
+
 
 Mouse also setup, left clicking will make the field disappear.
 Click within window.
