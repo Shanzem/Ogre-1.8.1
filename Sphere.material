@@ -1,0 +1,41 @@
+material 01_-_Default
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1.0
+			diffuse 1.0 1.0 0.0
+			specular 0.50 0.50 0.50 1.000000 0.250000
+			emissive 0 0 0
+		}
+	}
+}
+
+material 02_-_Default
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1.0
+			diffuse 0.0 1.0 0.0
+			specular 0.50 0.50 0.50 1.000000 0.250000
+			emissive 0 0 0
+		}
+	}
+}
+
+material 03_-_Default
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1.0
+			diffuse 0.0 0.0 1.0
+			specular 0.50 0.50 0.50 1.000000 0.250000
+			emissive 0 0 0
+		}
+	}
+}

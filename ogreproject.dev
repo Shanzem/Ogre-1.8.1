@@ -11,7 +11,7 @@ ResourceIncludes=C:\ogre;C:\Users\Luke\Desktop\ogre\ogre.1.8.1
 MakeIncludes=
 Compiler=
 CppCompiler=_@@_
-Linker=_@@_OgreSDK_MinGW_v1-8-1/lib/release/libOgreMain.dll.a_@@_OgreSDK_MinGW_v1-8-1/lib/release/libOgrePaging.dll.a_@@_OgreSDK_MinGW_v1-8-1/lib/release/libOgreProperty.dll.a_@@_OgreSDK_MinGW_v1-8-1/lib/release/libOgreRTShaderSystem.dll.a_@@_OgreSDK_MinGW_v1-8-1/lib/release/libOgreTerrain.dll.a_@@_OgreSDK_MinGW_v1-8-1/lib/release/libOIS.dll.a_@@_OgreSDK_MinGW_v1-8-1/lib/release/opt/libPlugin_BSPSceneManager.dll.a_@@_OgreSDK_MinGW_v1-8-1/lib/release/opt/libPlugin_CgProgramManager.dll.a_@@_OgreSDK_MinGW_v1-8-1/lib/release/opt/libPlugin_OctreeSceneManager.dll.a_@@__@@_OgreSDK_MinGW_v1-8-1/lib/release/opt/libPlugin_ParticleFX.dll.a_@@__@@__@@_OgreSDK_MinGW_v1-8-1/lib/release/opt/libRenderSystem_GL.dll.a_@@_OgreSDK_MinGW_v1-8-1/lib/release/opt/libPlugin_OctreeZone.dll.a_@@_OgreSDK_MinGW_v1-8-1/lib/release/opt/libPlugin_PCZSceneManager.dll.a_@@_
+Linker=_@@_OgreSDK_MinGW_v1-8-1/lib/release/libOgreMain.dll.a_@@_OgreSDK_MinGW_v1-8-1/lib/release/libOgrePaging.dll.a_@@_OgreSDK_MinGW_v1-8-1/lib/release/libOgreProperty.dll.a_@@_OgreSDK_MinGW_v1-8-1/lib/release/libOgreRTShaderSystem.dll.a_@@_OgreSDK_MinGW_v1-8-1/lib/release/libOgreTerrain.dll.a_@@_OgreSDK_MinGW_v1-8-1/lib/release/libOIS.dll.a_@@__@@_OgreSDK_MinGW_v1-8-1/lib/release/opt/libPlugin_CgProgramManager.dll.a_@@_OgreSDK_MinGW_v1-8-1/lib/release/opt/libPlugin_OctreeSceneManager.dll.a_@@__@@_OgreSDK_MinGW_v1-8-1/lib/release/opt/libPlugin_ParticleFX.dll.a_@@__@@__@@_OgreSDK_MinGW_v1-8-1/lib/release/opt/libRenderSystem_GL.dll.a_@@_OgreSDK_MinGW_v1-8-1/lib/release/opt/libPlugin_OctreeZone.dll.a_@@__@@__@@_OgreSDK_MinGW_v1-8-1/lib/release/opt/libPlugin_PCZSceneManager.dll.a_@@_
 IsCpp=1
 Icon=
 ExeOutput=
@@ -49,16 +49,6 @@ ProductName=
 ProductVersion=1.0.0.0
 AutoIncBuildNr=0
 SyncProduct=1
-
-[Unit2]
-FileName=BaseApplication.h
-CompileCpp=1
-Folder=
-Compile=1
-Link=1
-Priority=1000
-OverrideBuildCmd=0
-BuildCmd=
 
 [Unit3]
 FileName=MechWalkTest.cpp

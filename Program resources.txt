@@ -1,17 +1,27 @@
 		Notes :-
 
-Updated 18/04/2018
+Updated 25/04/2018
 
-Blender2ogre finally working.
+Playable demo. :)
 
-Dropping .BSP going full Octree as i can get more detailed results
-and better ram/cpu/graphics usage.
+OIS setup. now have a user input system.
 
-Uploaded all tools and programs to my google drive
+Chase camera setup!
 
-will place download links in README section.
+Created a 16x16 meters mesh template that converted to ogre perfectly!.
 
-Been throwing ideas down for a spreadsheet for map stitching.
+Now i can use this for stitching and place doodads/scenery/buildings on top.
+
+Particle scripts get sprite picture information from a material script which in turn can use .png
+
+.PARTICLE -> .MATERIAL -> .PNG
+
+Neat :D.
+
+New problems :-
+
+Having texture script issues when it comes to alpha channel use.
+
 
 
 -------------------------------------------------------------
@@ -128,6 +138,34 @@ Windows / Linux	/ Raspberry PI
 
 ---------------------------------------------------------------------------
 
+The Small Box
+
+The small box gets its first teeth
+And its small length
+Its small width and small emptiness
+And all that it has got
+
+The small box is growing bigger
+And now the cupboard is in it
+That it was in before
+
+And it grows bigger and bigger and bigger
+And now it has in it the room
+And the house and the town and the land
+And the world it was in before
+
+The small box remembers its childhood
+And by overgreat longing
+It becomes a small box again
+
+Now in the small box
+Is the whole world quite tiny
+You can easily put it in a pocket
+Easily steal it easily lose it
+
+Take care of the small box
+
+-Vasco Popa
 
 ----------------------------------------------------------------------
 
@@ -140,13 +178,13 @@ OPENGL								Tested and works	-	Enabled
 DirectX9							Tested and works	-	Disabled
 FreeImage 							version: 3.15.3
 ParticleFX							Need documentation
-BSPSceneManager
+BSPSceneManager						Works					- Not using but keeping support
 CgProgramManager
 PCZSceneManager						Need documentation
 OctreeZone							Need documentation
 OctreeSceneManager					Need documentation
-GTK Radiant(Q3) map editor			Installed,running :)
-Q3map2 map-> bsp compiler			Installed,works
+GTK Radiant(Q3) map editor			Installed,running :)	- Not using but keeping support
+Q3map2 map-> bsp compiler			Installed,works			- Not using but keeping support
 Krita 4.0							All artwork
 Blender	2.75						All models
 Blender2ogre 6						WORKS
@@ -157,9 +195,10 @@ Ogre Particle Lab					Nifty app :)
 
 		Still needed :-
 
-Physics engine!						Plugin`s and Software development kits oh my! 
+OgreODE								Physics engine. For easy collision setup.
+									Need OgreODE.
 									
-Resource manager .pk3/.zip			For compressing READ only data.
+Resource manager .pk3/.zip.wad		For compressing READ only data.
 									
 									
 Navmap plugin	 					Identify scenes changes / loads for player. A.I movement, patrols route to player without
@@ -199,12 +238,12 @@ Multi-player mode 1~3 players? 		LAN (Wifi,Cat5)and VPN only. Could be implement
 		
 Multi-player plugin					It exists no idea if it supports 1.8.1 though.
 
-		Undecided :-
+
+		Decided :-
 		
 Tempted to make this like diablo 2,torchlight 2.
-Heavy use of 2d images, with only 3d characters / mobs / pawns / (buildings - possibly)
-Scenery can be 2d, due to the camera locking in locked z/y/x/pitch/yaw with isometric view, while still looking like it has a 3d model.
-
+Heavy use of 2d images, with only 3d characters / mobs / pawns / (buildings- Culled faces.)
+Scenery can be 2d, Camera locked z/y/x/pitch/yaw with isometric view.
 		Example :-
 
 Light source without shadows. 
