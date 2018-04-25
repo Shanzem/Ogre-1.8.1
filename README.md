@@ -10,7 +10,7 @@ https://drive.google.com/open?id=1YFPHCwl2J7vrGQKkfEuu7OY33_fFL_L7
 
 25/04/2018
 
-Pics added
+Pics added + Need to organize repository.
 
 PLAYABLE DEMO - WINDOWED - CAMERA CHASES!.
 As in uses input :P.
