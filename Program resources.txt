@@ -8,20 +8,9 @@ OIS setup. now have a user input system.
 
 Chase camera setup!
 
-Created a 16x16 meters mesh template that converted to ogre perfectly!.
+Mouse node movement no go currently.
 
-Now i can use this for stitching and place doodads/scenery/buildings on top.
-
-Particle scripts get sprite picture information from a material script which in turn can use .png
-
-.PARTICLE -> .MATERIAL -> .PNG
-
-Neat :D.
-
-New problems :-
-
-Having texture script issues when it comes to alpha channel use.
-
+To google.
 
 
 -------------------------------------------------------------
@@ -191,6 +180,7 @@ Blender2ogre 6						WORKS
 Ogre meshy							Bone weights and useful information
 OgreCommandLineTools_1.7.2			OgreXMLconverter,MeshMagick,MeshUpgrader.
 Ogre Particle Lab					Nifty app :)
+Ogre paged geometry					Raw - Trees/rocks/bushs in a bounding box.
 
 
 		Still needed :-
