@@ -7,8 +7,34 @@ CLICK ON PROGRAM RESOURCES.TXT FOR FULL DETAILS
 Download 
 https://drive.google.com/open?id=1YFPHCwl2J7vrGQKkfEuu7OY33_fFL_L7
 
+01/05/2018
 
-25/04/2018
+Buggy build,
+
+Played with node translation with manual code and mouse.
+
+Setup timers ect. 
+
+Basically anything i touched didn't work. sigh.
+
+Lots of commented junk code ^_^'
+
+Only grabbed an old OgreODE plugin for 1.2.0 Dagon Doh! :(
+
+Going to bite the bullet.
+
+Building 1.10 or 1.11, Code will copy and paste over.
+
+Its better i do this now for physics engine / future plugins.
+ 
+Moving onto GL3+ :D.,
+
+Also means i will not be missing IMGUI from my code. :).
+Which in a huge bonus as i need visual feedback from my integers and floats.
+Plus i miss my dear imgui.
+IMGUI binding only supports GL3.
+
+
 
 Pics added + Need to organize repository.
 
